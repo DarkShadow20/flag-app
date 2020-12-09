@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  padding: 1rem;
+  width: 15rem;
+  margin: 1rem;
+}
+p {
+  font-weight: bolder;
+}
+.flag {
+  background-color: #cccccc;
+  padding: 0.5rem;
+  margin: auto;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.flag .span {
+  display: inline-block;
+}
+
+.flag .flagmaker {
+  padding: 0.5rem;
+  font-size: 30px;
+  cursor: pointer;
+}
