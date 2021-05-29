@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-var FlagDictionary = {
+const FlagDictionary = {
   "🇦🇨": "Ascension Island",
   "🇦🇩": "Andorra",
   "🇦🇪": "United Arab Emirates",
@@ -158,7 +158,7 @@ var FlagDictionary = {
   "🇿🇲": "Zambia",
   "🇿🇼": "Zimbabwe"
 };
-var FlagArray = Object.keys(FlagDictionary);
+let FlagArray = Object.keys(FlagDictionary);
 export default function App() {
   const [meaning, setMeaning] = useState("");
   function flagInputHandler() {
